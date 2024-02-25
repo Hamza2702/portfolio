@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #0f1e34;
+    font-family: "Poppins", monospace;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/subtleBack.png");
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+u{
+    text-underline-offset: 5px;
+    color: #ffcd00;
+}
+
+header{
+    height: 100vh;
+    max-width: 100%;
+}
+
+.main-header{
+    margin: 0 auto; 
+    padding: 0px 0px;
+    color: #fff;
+}
+
+.welcomeSection {
+    padding: 75px 60px;
+    margin: 60px auto;
+    border-style: none;
+}
+
+.homeTitleSize1{
+    color: #d1674e;
+    font-size: 100%;
+}
+
+.homeTitleSize2{
+    font-size: 200%;
+    color: #e0e0e0;
+}
+
+.homeTitleSize3{
+    color: #e0e0e0;
+    font-size: 250%;
+}
+
+nav{
+    padding: 10px 0px;
+    flex-direction: row;
+    background-color: #0d1624;
+    padding-right: 50px;
+}
+
+.navigationBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navGroup {
+    display: flex;
+    align-items: center;
+}
+
+.navTitle {
+    font-size: 100%;
+    margin-right: 20px;
+    color: #d1674e;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navButton.navItems, #githubIcon, #linkedinIcon {
+    align-self: center;
+    margin: -10px;
+}
+
+/* CSS */
+.navButton {
+  background-color: #ea4c8900;
+  box-sizing: border-box;
+  color: #e0e0e0;;
+  font-size: 8px;
+  padding: 10px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color .4s ease;
+  transition: font-size .2s ease;
+}
+
+.navButton:hover,
+.navButton:focus {
+    color: #536e9c;
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sections */
+
+.centeredSection {
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    width:45%;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+.contact-details{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    width:45%;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+.education{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    width:45%;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+.educationGrade{
+    color: #ffcd00;
+}
+
+.workTitle{
+    color: #ffcd00;
+}
+
+.work-experience{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+.interests{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    width:45%;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+/* Skill */
+
+
+.skills{
+    justify-content: start;
+    padding: 5%;
+    align-items: start;
+    font-size: 20px;
+    display: flex;
+    width:45%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10; 
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+.skills-image{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-bottom: 10px;
+}
+
+blockquote{
+    width: 100%;
+    text-align: start;
+}
+
+.individualExperience{
+    align-items: center;
+    display: flex;
+    height: 10px;
+    width: 75%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center; font-size: 15px ;color: black;
+}
+
+.insideIndividual {
+    height: 2.5px;
+    width: 50%;
+    background-color: rgba(15, 30, 52);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+
+.experienceTitle {
+    font-size: 20px;
+    text-align: start;
+    color: #ffcd00;
+    margin-bottom: 0;
+}
+
+.experienceMain {
+    font-size: 30px;
+    text-align: start;
+    color: #d1674e;
+}
+
+/* Individual experience */
+.javaExperience {width: 35%; background-color: #6abbb7;}
+.CSharpExperience {width: 45%; background-color: #b46abb;}
+.LuaExperience {width: 75%; background-color: #bb6a6a;}
+.PythonExperience {width: 15%; background-color: #6abb6a;}
+.JavaScriptExperience {width: 10%; background-color: #6abbb7;}
+.PHPExperience {width: 20%; background-color: #b3bb6a;}
+
+/* Portfolio */
+
+.projects {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width:70%;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+    z-index: 10;
+}
+
+/* Panel */
+
+
+.panel {
+    position: relative;
+    border-radius: 15px;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+#panel1 { background-color: #4e87d1;}
+#panel2 { background-color: #d14e4e; }
+#panel3 { background-color: #5abc64;} 
+
+
+.panel-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.panelTitle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.panelTitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.panelOuterTitle{
+    display: flex;
+}
+
+.panelImage{
+    align-items: center;
+    display: flex;
+}
+
+.portfolioTitle{
+    color: #ffcd00;
+    font-size: 240%
+}
+
+/* Contact Me */
+
+.contact-me {
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    width:75%;
+    height: auto;
+    right: 10px;
+    margin: 0 auto;
+    margin-bottom: 100vh;
+    text-align: center;
+    z-index: 10;
+    background-image: url("../images/subtleBackWhite.png");
+    background-attachment: fixed;
+}
+
+input{
+    background-color: #0f1e34;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    color: #e0e0e0;
+    padding: 2.5%;
+    width: 50%;
+    font-size: large;
+}
+
+textarea{
+    background-color: #0f1e34;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    color: #e0e0e0;
+    font-size: large;
+    resize: none;
+}
+
+.contact-preferences {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #0f1e34;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    color: #e0e0e0;
+    padding: 2.5%;
+    width: 100%;
+    font-size: large;
+}
+
+
+/* Form */
+#form{
+    width: 100%;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    color: #e0e0e0;
+    background-color: #d1674e;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input{
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus{
+    outline: 0;
+}
+
+.footer-space{
+    padding-top: 50px;
+}
+
+.submit{
+    padding: 10px;
+    color: #0d1624;
+}
